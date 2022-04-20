@@ -1,10 +1,10 @@
-import UserRegisterOnlyReact from "./components/UserRegisterOnlyReact";
+import UserRegisterRhf from "./components/UserRegisterRhf";
 
 export default function App() {
   return (
     <div>
-      <p>React만 이용한 경우</p>
-      <UserRegisterOnlyReact />
+      <p>react-hook-form을 사용한 경우</p>
+      <UserRegisterRhf />
     </div>
   );
 }
