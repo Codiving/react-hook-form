@@ -1,12 +1,5 @@
 import { FieldErrors, useForm } from "react-hook-form";
-
-interface IUserData {
-  name: string;
-  age: number;
-  id: string;
-  password: string;
-  email: string;
-}
+import { IUserData } from "./types";
 
 const UserRegisterRhf = () => {
   const {

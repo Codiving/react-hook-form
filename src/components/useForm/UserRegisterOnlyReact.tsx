@@ -1,12 +1,5 @@
 import { useState } from "react";
-
-interface IUserData {
-  name: string;
-  age: number;
-  id: string;
-  password: string;
-  email: string;
-}
+import { IUserData } from "./types";
 
 const initUserData = {
   name: "",
